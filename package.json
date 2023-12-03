@@ -1,0 +1,20 @@
+{
+  "name": "sketch408",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/three": "^0.159.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "three": "^0.159.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.4",
+    "vite-plugin-glsl": "^1.2.0",
+    "gsap": "^3.12.3"
+  }
+}
