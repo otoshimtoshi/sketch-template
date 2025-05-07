@@ -5,7 +5,7 @@ const $pointer = (canvas: HTMLCanvasElement) => {
     dx: 0,
     dy: 0,
     moved: false,
-  };
+  }
 
   /**
    *
@@ -13,14 +13,14 @@ const $pointer = (canvas: HTMLCanvasElement) => {
    * @param y - number
    */
   const setPosition = (x: number, y: number) => {
-    state.x = x;
-    state.y = y;
-  };
+    state.x = x
+    state.y = y
+  }
 
   return {
     ...state,
     setPosition,
-  };
-};
+  }
+}
 
-export { $pointer };
+export { $pointer }

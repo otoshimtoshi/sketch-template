@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [glsl()],
   base: './',
   server: {
-    host: true
-  }
+    host: true,
+  },
 })

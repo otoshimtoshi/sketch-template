@@ -1,25 +1,25 @@
 /** color mode type */
-export type ColorModeType = "light" | "dark";
+export type ColorModeType = 'light' | 'dark'
 
 /** color data type */
 export type ColorData = {
   /** red */
-  r: number;
+  r: number
   /** green */
-  g: number;
+  g: number
   /** blue */
-  b: number;
+  b: number
   /** alpha */
-  a: number;
-};
+  a: number
+}
 
-const $color = (mode: ColorModeType = "light") => {
+const $color = (mode: ColorModeType = 'light') => {
   const state: ColorData = {
     r: 0,
     g: 0,
     b: 0,
     a: 1,
-  };
+  }
 
   /**
    * Sets this color from RGB values.
@@ -28,25 +28,25 @@ const $color = (mode: ColorModeType = "light") => {
    * @param b - Blue channel value between 0 and 1.
    */
   const setRGB = (r: number, g: number, b: number, a: number = 1) => {
-    state.r = r;
-    state.g = g;
-    state.b = b;
-    state.a = a;
-  };
+    state.r = r
+    state.g = g
+    state.b = b
+    state.a = a
+  }
 
   const updateMode = () => {
-    if (mode === "light") {
-      setRGB(0, 0, 0);
+    if (mode === 'light') {
+      setRGB(0, 0, 0)
     } else {
-      setRGB(0.901, 0.905, 0.909);
+      setRGB(0.901, 0.905, 0.909)
     }
-  };
-  updateMode();
+  }
+  updateMode()
 
   return {
     ...state,
     setRGB,
-  };
-};
+  }
+}
 
-export { $color };
+export { $color }

@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "format": "biome format",
+    "format": "biome format --write",
     "lint": "biome lint",
     "check": "biome check"
   },

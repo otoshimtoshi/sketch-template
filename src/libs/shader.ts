@@ -10,22 +10,25 @@ const $shader = (gl: WebGLRenderingContext) => {
    * @returns WebGLShader | null
    */
   const $loadShader = (source: string, type: GLenum = gl.VERTEX_SHADER) => {
-    const shader = gl.createShader(type);
+    const shader = gl.createShader(type)
     if (!shader) {
-      console.error("Shader created failed:: shader is null!!");
-      return null;
+      console.error('Shader created failed:: shader is null!!')
+      return null
     }
 
-    gl.shaderSource(shader, source);
-    gl.compileShader(shader);
+    gl.shaderSource(shader, source)
+    gl.compileShader(shader)
     if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
-      console.error("An error occurred compiling the shader:", gl.getShaderInfoLog(shader));
-      gl.deleteShader(shader);
-      return null;
+      console.error(
+        'An error occurred compiling the shader:',
+        gl.getShaderInfoLog(shader),
+      )
+      gl.deleteShader(shader)
+      return null
     }
 
-    return shader;
-  };
+    return shader
+  }
 
   /**
    * $initShaderProgram is a wrapper function for gl.createProgram, gl.attachShader, and gl.linkProgram.
@@ -34,24 +37,30 @@ const $shader = (gl: WebGLRenderingContext) => {
    * @param fragmentShader - WebGLShader
    * @returns WebGLProgram | null
    */
-  const $initShaderProgram = (vertexShader: WebGLShader, fragmentShader: WebGLShader) => {
-    const program = gl.createProgram();
+  const $initShaderProgram = (
+    vertexShader: WebGLShader,
+    fragmentShader: WebGLShader,
+  ) => {
+    const program = gl.createProgram()
     if (!program) {
-      console.error("Program created failed:: program is null!!");
-      return null;
+      console.error('Program created failed:: program is null!!')
+      return null
     }
 
-    gl.attachShader(program, vertexShader);
-    gl.attachShader(program, fragmentShader);
-    gl.linkProgram(program);
+    gl.attachShader(program, vertexShader)
+    gl.attachShader(program, fragmentShader)
+    gl.linkProgram(program)
 
     if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
-      console.error("Unable to initialize the shader program:", gl.getProgramInfoLog(program));
-      return null;
+      console.error(
+        'Unable to initialize the shader program:',
+        gl.getProgramInfoLog(program),
+      )
+      return null
     }
 
-    return program;
-  };
+    return program
+  }
 
   /**
    * $getUniforms returns uniform information for the specified program.
@@ -60,21 +69,21 @@ const $shader = (gl: WebGLRenderingContext) => {
    * @returns uniforms
    */
   const $getUniforms = (program: WebGLProgram) => {
-    let uniforms: any = {};
-    let uniformCount = gl.getProgramParameter(program, gl.ACTIVE_UNIFORMS);
+    let uniforms: any = {}
+    let uniformCount = gl.getProgramParameter(program, gl.ACTIVE_UNIFORMS)
     for (let i = 0; i < uniformCount; i++) {
-      const info = gl.getActiveUniform(program, i);
-      if (!info) return;
-      uniforms[info.name] = gl.getUniformLocation(program, info.name);
+      const info = gl.getActiveUniform(program, i)
+      if (!info) return
+      uniforms[info.name] = gl.getUniformLocation(program, info.name)
     }
-    return uniforms;
-  };
+    return uniforms
+  }
 
   return {
     $loadShader,
     $initShaderProgram,
     $getUniforms,
-  };
-};
+  }
+}
 
-export { $shader };
+export { $shader }
