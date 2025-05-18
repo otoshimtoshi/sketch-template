@@ -30,8 +30,8 @@ importers:
         specifier: ^0.6.11
         version: 0.6.11(prettier@3.3.3)
       tailwindcss:
-        specifier: ^4.1.5
-        version: 4.1.5
+        specifier: ^4.1.7
+        version: 4.1.7
       three:
         specifier: ^0.176.0
         version: 0.176.0
