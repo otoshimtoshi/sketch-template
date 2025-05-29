@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@tailwindcss/postcss": "^4.1.7",
+    "@tailwindcss/postcss": "^4.1.8",
     "@types/three": "^0.176.0",
     "autoprefixer": "^10.4.21",
     "gsap": "^3.13.0",
