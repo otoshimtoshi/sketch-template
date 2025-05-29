@@ -18,7 +18,7 @@
     "gsap": "^3.13.0",
     "postcss": "^8.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^4.1.7",
+    "tailwindcss": "^4.1.8",
     "three": "^0.176.0",
     "typescript": "^5.8.3",
     "vite": "^6.3.5",
