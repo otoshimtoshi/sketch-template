@@ -5,23 +5,25 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:tsgo": "tsgo && vite build",
     "preview": "vite preview",
     "format": "biome format --write",
     "lint": "biome lint",
     "check": "biome check"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.0.5",
-    "@tailwindcss/postcss": "^4.1.10",
-    "@types/three": "^0.177.0",
+    "@biomejs/biome": "2.1.2",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/three": "^0.178.1",
+    "@typescript/native-preview": "7.0.0-dev.20250720.1",
     "autoprefixer": "^10.4.21",
     "gsap": "^3.13.0",
     "postcss": "^8.5.6",
-    "prettier-plugin-tailwindcss": "^0.6.13",
-    "tailwindcss": "^4.1.10",
-    "three": "^0.177.0",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "tailwindcss": "^4.1.11",
+    "three": "^0.178.0",
     "typescript": "^5.8.3",
-    "vite": "^7.0.0",
-    "vite-plugin-glsl": "^1.5.0"
+    "vite": "^7.0.5",
+    "vite-plugin-glsl": "^1.5.1"
   }
 }
