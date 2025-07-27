@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
+    "dev:tsgo": "tsgo && vite",
     "build": "tsc && vite build",
     "build:tsgo": "tsgo && vite build",
     "preview": "vite preview",
