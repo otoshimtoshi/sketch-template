@@ -13,7 +13,7 @@
     "check": "biome check"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.1.2",
+    "@biomejs/biome": "2.1.4",
     "@tailwindcss/postcss": "^4.1.11",
     "@types/three": "^0.178.1",
     "@typescript/native-preview": "7.0.0-dev.20250720.1",
