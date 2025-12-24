@@ -13,18 +13,18 @@
     "check": "biome check"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.1.2",
-    "@tailwindcss/postcss": "^4.1.11",
-    "@types/three": "^0.178.1",
-    "@typescript/native-preview": "7.0.0-dev.20250720.1",
-    "autoprefixer": "^10.4.21",
-    "gsap": "^3.13.0",
+    "@biomejs/biome": "2.3.10",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/three": "^0.182.0",
+    "@typescript/native-preview": "7.0.0-dev.20251223.1",
+    "autoprefixer": "^10.4.23",
+    "gsap": "^3.14.2",
     "postcss": "^8.5.6",
-    "prettier-plugin-tailwindcss": "^0.6.14",
-    "tailwindcss": "^4.1.17",
-    "three": "^0.178.0",
-    "typescript": "^5.8.3",
-    "vite": "^7.0.5",
-    "vite-plugin-glsl": "^1.5.1"
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "tailwindcss": "^4.1.18",
+    "three": "^0.182.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0",
+    "vite-plugin-glsl": "^1.5.5"
   }
 }
