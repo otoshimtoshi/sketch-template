@@ -18,8 +18,8 @@ importers:
         specifier: ^0.182.0
         version: 0.182.0
       '@typescript/native-preview':
-        specifier: 7.0.0-dev.20260101.1
-        version: 7.0.0-dev.20260101.1
+        specifier: 7.0.0-dev.20260105.1
+        version: 7.0.0-dev.20260105.1
       autoprefixer:
         specifier: ^10.4.23
         version: 10.4.23(postcss@8.5.6)
@@ -502,43 +502,43 @@ packages:
   '@types/webxr@0.5.20':
     resolution: {integrity: sha512-JGpU6qiIJQKUuVSKx1GtQnHJGxRjtfGIhzO2ilq43VZZS//f1h1Sgexbdk+Lq+7569a6EYhOWrUpIruR/1Enmg==}
 
-  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20260101.1':
-    resolution: {integrity: sha512-V4oWbFO5QBqvb4ra4QMFt6OV4QlEkODzn5XE+W0BdA03eQ/SljvbC0QAZqI/qNKWOqC8eXM4N3EViZEK2Dq2vQ==}
+  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20260105.1':
+    resolution: {integrity: sha512-d+CJrdiElzHuckgsXLHlBRLbHsgzWqQuSVOZ/raF6cvBKjylnphNPx+CdtOpZrBCic0M30Q/UfTV6StMDhjIrQ==}
     cpu: [arm64]
     os: [darwin]
 
-  '@typescript/native-preview-darwin-x64@7.0.0-dev.20260101.1':
-    resolution: {integrity: sha512-GVQD7TUbgBQqRCwY80N5x1lP8DNpinxE7s1JyAFOc1tBOcHrIsBmGEIP/PGnJAbWbT1cJmsLIqLH+y5VWwE1cA==}
+  '@typescript/native-preview-darwin-x64@7.0.0-dev.20260105.1':
+    resolution: {integrity: sha512-ntgJZDSNh7tqw2bfBuEEqhwUbuALLTLY4E/pLdCC8vaL/2QrNcTuDZX23hcLa7pQL6ML2OVvEH1MC7A1BUO/WA==}
     cpu: [x64]
     os: [darwin]
 
-  '@typescript/native-preview-linux-arm64@7.0.0-dev.20260101.1':
-    resolution: {integrity: sha512-IgTHV1WgajBz3W4cyNk8nCuwBrLD+00pZu7AwTfu31UPyTnnfI54+VjjK0Pz5FZN+D5Tnvy/VTaNzSbxOG7+7g==}
+  '@typescript/native-preview-linux-arm64@7.0.0-dev.20260105.1':
+    resolution: {integrity: sha512-uBj+8EPCZ8bFSosovwmgF16r4NXHgq0Wc3Ddg48KDqUl9njsVjWbg6jv3H5OXm7nnLKgRzmq9B30cHuWhlKsMg==}
     cpu: [arm64]
     os: [linux]
 
-  '@typescript/native-preview-linux-arm@7.0.0-dev.20260101.1':
-    resolution: {integrity: sha512-XVSkBoVC0jSNR1IO0z+T//67q0kqUY3cuYLbV0/V1z/HMxk9R8lo0UC9NP2KBsUe/MV0p3hQQFJUcqTrNfxKZA==}
+  '@typescript/native-preview-linux-arm@7.0.0-dev.20260105.1':
+    resolution: {integrity: sha512-Pv8aEc9OKG++9dPzyWwZRXt1WEHH7saAYpGrYWKnR0mMDt8yRRPX2g9ReCSFLJ/9ji3nvBg3n/wUXDXOdMQDDg==}
     cpu: [arm]
     os: [linux]
 
-  '@typescript/native-preview-linux-x64@7.0.0-dev.20260101.1':
-    resolution: {integrity: sha512-1mrQsJycVCTCNXL5bG6WoNaazO0tkebW3TC05fuL1gDPFVhxE1ou1PrT9adMjilzNraYO3L+It2wm/gfPcbj+Q==}
+  '@typescript/native-preview-linux-x64@7.0.0-dev.20260105.1':
+    resolution: {integrity: sha512-vy1IpYseSpIP6X0TKnejwKH75LO06VfI7DRV9ShqgHC6Ybd7AdrTrXlna13sFF6FuD8vd3ZefesbS4n4d0Ywzw==}
     cpu: [x64]
     os: [linux]
 
-  '@typescript/native-preview-win32-arm64@7.0.0-dev.20260101.1':
-    resolution: {integrity: sha512-eFYYewyCHOt9sMmtl93b+dfNMsqD7mSQGvMym/Ih/LHreB4PJbP3XzA22/3yVl3pc0OmGqjnRAR1AEGr9AVI8g==}
+  '@typescript/native-preview-win32-arm64@7.0.0-dev.20260105.1':
+    resolution: {integrity: sha512-EFSpj3zgVsYTztgeuxhOlOpx0hr2vTVxPyccEHfiseMcAjkAsbdoSeYSLZFZyW2JXqJtq6N3YWsGGKzoyP0f+Q==}
     cpu: [arm64]
     os: [win32]
 
-  '@typescript/native-preview-win32-x64@7.0.0-dev.20260101.1':
-    resolution: {integrity: sha512-lXOY+YXrq6ZzKbG6Exa5HmgLcRKxcEqi07r824JlQ/ENrK9Vj3LTSqXPRNbsF+EjQCQIkghROfkBtXWHm2kprQ==}
+  '@typescript/native-preview-win32-x64@7.0.0-dev.20260105.1':
+    resolution: {integrity: sha512-UK0+xTxu6UZA8isOThWT9LOAl6LB1WyYFLC0ijno4SWwQCIbnJi3wjnAkBxRyM8h46DUaDYpXfHVkpYwhdExhg==}
     cpu: [x64]
     os: [win32]
 
-  '@typescript/native-preview@7.0.0-dev.20260101.1':
-    resolution: {integrity: sha512-jcepDhtyTQbLIccBGatYR6x/ybAauDXLXYgNAW0MdIHx0YVa3XIF9kpSEE6Zq4RB9k/tHw5mwp0VgB7XDkMq1Q==}
+  '@typescript/native-preview@7.0.0-dev.20260105.1':
+    resolution: {integrity: sha512-PjmhqnN/jRDLxG/5EuCe8AlW1QUEOjcDJQsxarQmMbrdW5DbSDnYUvWbYbJescXefeK0v3FUQmp7HAOCFQ7I/w==}
     hasBin: true
 
   '@webgpu/types@0.1.60':
@@ -1165,36 +1165,36 @@ snapshots:
 
   '@types/webxr@0.5.20': {}
 
-  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20260101.1':
+  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20260105.1':
     optional: true
 
-  '@typescript/native-preview-darwin-x64@7.0.0-dev.20260101.1':
+  '@typescript/native-preview-darwin-x64@7.0.0-dev.20260105.1':
     optional: true
 
-  '@typescript/native-preview-linux-arm64@7.0.0-dev.20260101.1':
+  '@typescript/native-preview-linux-arm64@7.0.0-dev.20260105.1':
     optional: true
 
-  '@typescript/native-preview-linux-arm@7.0.0-dev.20260101.1':
+  '@typescript/native-preview-linux-arm@7.0.0-dev.20260105.1':
     optional: true
 
-  '@typescript/native-preview-linux-x64@7.0.0-dev.20260101.1':
+  '@typescript/native-preview-linux-x64@7.0.0-dev.20260105.1':
     optional: true
 
-  '@typescript/native-preview-win32-arm64@7.0.0-dev.20260101.1':
+  '@typescript/native-preview-win32-arm64@7.0.0-dev.20260105.1':
     optional: true
 
-  '@typescript/native-preview-win32-x64@7.0.0-dev.20260101.1':
+  '@typescript/native-preview-win32-x64@7.0.0-dev.20260105.1':
     optional: true
 
-  '@typescript/native-preview@7.0.0-dev.20260101.1':
+  '@typescript/native-preview@7.0.0-dev.20260105.1':
     optionalDependencies:
-      '@typescript/native-preview-darwin-arm64': 7.0.0-dev.20260101.1
-      '@typescript/native-preview-darwin-x64': 7.0.0-dev.20260101.1
-      '@typescript/native-preview-linux-arm': 7.0.0-dev.20260101.1
-      '@typescript/native-preview-linux-arm64': 7.0.0-dev.20260101.1
-      '@typescript/native-preview-linux-x64': 7.0.0-dev.20260101.1
-      '@typescript/native-preview-win32-arm64': 7.0.0-dev.20260101.1
-      '@typescript/native-preview-win32-x64': 7.0.0-dev.20260101.1
+      '@typescript/native-preview-darwin-arm64': 7.0.0-dev.20260105.1
+      '@typescript/native-preview-darwin-x64': 7.0.0-dev.20260105.1
+      '@typescript/native-preview-linux-arm': 7.0.0-dev.20260105.1
+      '@typescript/native-preview-linux-arm64': 7.0.0-dev.20260105.1
+      '@typescript/native-preview-linux-x64': 7.0.0-dev.20260105.1
+      '@typescript/native-preview-win32-arm64': 7.0.0-dev.20260105.1
+      '@typescript/native-preview-win32-x64': 7.0.0-dev.20260105.1
 
   '@webgpu/types@0.1.60': {}
 
