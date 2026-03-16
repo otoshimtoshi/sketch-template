@@ -45,8 +45,8 @@ importers:
         specifier: ^7.3.0
         version: 7.3.0(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.5.1)
       vite-plugin-glsl:
-        specifier: ^1.5.5
-        version: 1.5.5(@rollup/pluginutils@5.1.4(rollup@4.44.0))(esbuild@0.27.2)(vite@7.3.0(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.5.1))
+        specifier: ^1.5.6
+        version: 1.5.6(@rollup/pluginutils@5.1.4(rollup@4.44.0))(esbuild@0.27.2)(vite@7.3.0(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.5.1))
 
 packages:
 
@@ -808,8 +808,8 @@ packages:
     peerDependencies:
       browserslist: '>= 4.21.0'
 
-  vite-plugin-glsl@1.5.5:
-    resolution: {integrity: sha512-6NM2P4JkM+1hNSqMhM4eagX03bmhEoTyrOrk68y3Q6KXfdF73QIuCb6BmRZvwLPgXTCOBM3Zc8gL1WxctYnrUQ==}
+  vite-plugin-glsl@1.5.6:
+    resolution: {integrity: sha512-h3RfTiaI4cC8hICFZk5TBAAxmIuM0b/qkdrjYpqPtaL8bcxNEoEFXXdlISPGmDQ09eP0aJC8V2/BgTmPXspC8w==}
     engines: {node: '>= 20.17.0', npm: '>= 10.8.3'}
     peerDependencies:
       '@rollup/pluginutils': ^5.x
@@ -1403,7 +1403,7 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
-  vite-plugin-glsl@1.5.5(@rollup/pluginutils@5.1.4(rollup@4.44.0))(esbuild@0.27.2)(vite@7.3.0(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.5.1)):
+  vite-plugin-glsl@1.5.6(@rollup/pluginutils@5.1.4(rollup@4.44.0))(esbuild@0.27.2)(vite@7.3.0(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.5.1)):
     dependencies:
       vite: 7.3.0(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.5.1)
     optionalDependencies:
